@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the power and aerodynamic design of the Kawasaki Ninja ZX-10R.">
+    <title>Kawasaki Ninja ZX-10R - The Ultimate Superbike</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span>KAWASAKI</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#specs">Specifications</a></li>
+        </ul>
+        <button class="btn-primary">Book a Test Ride</button>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="parallax-container">
+            <div class="parallax-bg"><div class="parallax-zoom" style="background-image: url('assets/hero_bg.png');"></div></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">NINJA <span>ZX-10R</span></h1>
+            <p class="hero-subtitle">The closest thing to a World Superbike Champion machine. Experience the thrill of true aerodynamic performance and intelligent technology.</p>
+            <div class="hero-actions">
+                <button class="btn-primary">Explore Features</button>
+                <button class="btn-secondary">View Specifications <i data-lucide="arrow-right"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features-section">
+        <h2 class="section-title">BUILT FOR THE <span>TRACK</span></h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="icon-container"><i data-lucide="zap"></i></div>
+                <h3>Advanced Electronics</h3>
+                <p>Equipped with an IMU-enhanced electronics package including cornering management, traction control, and launch control mode for maximum grip.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-container"><i data-lucide="wind"></i></div>
+                <h3>Aerodynamic Styling</h3>
+                <p>Integrated winglets generate significant downforce to help keep the front wheel grounded during strong acceleration, derived from WSBK.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-container"><i data-lucide="crosshairs"></i></div>
+                <h3>High-Performance Suspension</h3>
+                <p>Showa Balance Free Front Fork (BFF) and BFRC lite rear shock offer top-tier suspension performance, ensuring precise handling.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="specs" class="specs-section">
+        <div class="specs-content">
+            <h2 class="section-title">ENGINEERED TO <span>WIN</span></h2>
+            <div class="specs-list">
+                <div class="spec-item">
+                    <span class="spec-label">Engine</span>
+                    <span class="spec-value">998cc, 4-stroke, In-Line Four</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">Power</span>
+                    <span class="spec-value">203.0 HP @ 13,200 rpm</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">Torque</span>
+                    <span class="spec-value">114.9 Nm @ 11,400 rpm</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">Curb Weight</span>
+                    <span class="spec-value">207 kg</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">Transmission</span>
+                    <span class="spec-value">6-speed, Return, Cassette</span>
+                </div>
+            </div>
+        </div>
+        <div class="specs-image-grid">
+             <div class="image-glass span-2">
+                 <img src="assets/bike_action.png" alt="Kawasaki Ninja ZX-10R in action" />
+             </div>
+             <div class="image-glass">
+                 <img src="assets/bike_side.png" alt="Kawasaki Ninja ZX-10R side profile" />
+             </div>
+             <div class="image-glass">
+                 <img src="assets/engine.png" alt="Kawasaki Ninja ZX-10R Engine" />
+             </div>
+        </div>
+    </section>
+
+    <!-- NEW BOOK RIDE SECTION -->
+    <section id="book-ride" class="book-ride-section" style="position: relative; padding: 120px 5%; text-align: center; color: white; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+        <div class="parallax-container">
+            <div class="parallax-bg"><div class="parallax-zoom" style="background-image: url('assets/zx10r_pitlane.png');"></div></div>
+        </div>
+        <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(10,10,10,0.95) 100%); z-index: 1;"></div>
+        <div class="book-ride-content" style="position: relative; z-index: 2; max-width: 800px; margin: 0 auto;">
+            <h2 class="section-title" style="margin-bottom: 1.5rem; font-size: 3rem;">EXPERIENCE THE <span>RACE TRACK</span></h2>
+            <p style="font-size: 1.25rem; margin-bottom: 2.5rem; color: #e2e8f0; line-height: 1.6;">Secure your spot in the pit lane. Book an exclusive test ride of the Ninja ZX-10R and feel the adrenaline of a true superbike.</p>
+            <button class="btn-primary open-modal-btn" style="font-size: 1.1rem; padding: 1rem 3rem;">Schedule Your Ride</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">KAWASAKI</div>
+            <p>&copy; 2026 Kawasaki Motors Corp. All rights reserved. (Concept fan-page)</p>
+            <div class="social-links">
+                <i data-lucide="instagram"></i>
+                <i data-lucide="twitter"></i>
+                <i data-lucide="youtube"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Book Test Ride Modal -->
+    <div id="bookingModal" class="modal-overlay">
+        <div class="modal-container layout-split">
+            <button class="modal-close" id="closeModalBtn" type="button"><i data-lucide="x"></i></button>
+            
+            <!-- Left Side: Visual & Bike Context -->
+            <div class="modal-sidebar">
+                <div class="sidebar-badge">Limited Slots Available</div>
+                <img src="assets/zx10r_pitlane.png" alt="Kawasaki Ninja ZX-10R in Pit Lane" class="sidebar-img" style="object-fit: cover;">
+                <div class="sidebar-info">
+                    <h3>KAWASAKI NINJA <span>ZX-10R</span></h3>
+                    <p class="specs-teaser">998cc inline-4 | 203 HP | Race-inspired performance</p>
+                </div>
+            </div>
+
+            <!-- Right Side: Booking Forms -->
+            <div class="modal-content">
+                <!-- Booking Form Step -->
+                <div id="bookingStep" class="modal-step active">
+                    <h2 class="modal-title">Book a Test Ride</h2>
+                    <p class="modal-subtitle">Experience the Ninja ZX-10R. Book a 30-min session.</p>
+                    
+                    <form id="bookingForm" class="booking-form">
+                        <!-- Select Bike (Read-only) -->
+                        <div class="form-group mb-4">
+                            <label>Selected Superbike</label>
+                            <input type="text" class="form-input readonly-input" value="Kawasaki Ninja ZX-10R" readonly style="color: var(--kawasaki-green); font-weight: bold; background: rgba(97, 192, 33, 0.1);">
+                        </div>
+                        
+                        <div class="form-row mt-3">
+                            <div class="form-group">
+                                <label for="bookingDate">Select Date</label>
+                                <input type="date" id="bookingDate" required class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="ridingExperience">Riding Experience</label>
+                                <select id="ridingExperience" class="form-input" required style="cursor: pointer; appearance: none;">
+                                    <option value="" disabled selected>Select level...</option>
+                                    <option value="beginner">Beginner</option>
+                                    <option value="intermediate">Intermediate (1-3 yrs)</option>
+                                    <option value="advanced">Advanced (3+ yrs)</option>
+                                    <option value="pro">Track / Pro</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group mt-2">
+                            <label>Select Time Slot (10:00 AM - 5:00 PM)</label>
+                            <div class="time-slots-grid" id="timeSlotsGrid">
+                                <!-- Slots will be populated by JS -->
+                            </div>
+                        </div>
+                        
+                        <div class="form-row mt-2">
+                            <div class="form-group">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" id="fullName" required class="form-input" placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumber">Mobile Number</label>
+                                <input type="tel" id="phoneNumber" required class="form-input" placeholder="7676864560" pattern="[0-9]*" minlength="10" maxlength="15">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group mt-2">
+                            <label for="emailAddress">Email Address</label>
+                            <input type="email" id="emailAddress" required class="form-input" placeholder="john@example.com" value="saiv4119@gmail.com">
+                        </div>
+
+                        <!-- Safety Disclaimer -->
+                        <div class="disclaimer-group mt-3">
+                            <input type="checkbox" id="safetyCheck" required>
+                            <label for="safetyCheck">I confirm I will bring a valid driving license, helmet, and proper riding gear to the test ride. Safety is my responsibility.</label>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary w-100 mt-4">Confirm Booking</button>
+                    </form>
+                </div>
+                
+                <!-- Confirmation Step -->
+                <div id="confirmationStep" class="modal-step">
+                    <div class="success-icon" style="margin-top: 2rem;">
+                        <i data-lucide="check-circle" style="width:72px; height:72px"></i>
+                    </div>
+                    <h2 class="modal-title text-center">Booking Confirmed!</h2>
+                    <p class="modal-subtitle text-center">Get ready to tame the beast.</p>
+                    
+                    <div class="booking-details mt-4">
+                        <div class="detail-item"><i data-lucide="motorcycle"></i> <span>Kawasaki Ninja ZX-10R</span></div>
+                        <div class="detail-item"><i data-lucide="calendar"></i> <span id="confirmDate"></span></div>
+                        <div class="detail-item"><i data-lucide="clock"></i> <span id="confirmTime"></span></div>
+                        <div class="detail-item"><i data-lucide="user"></i> <span id="confirmName"></span></div>
+                    </div>
+                    
+                    <div class="sms-notification mt-4">
+                        <i data-lucide="smartphone"></i>
+                        <p>SMS confirmation sent to <span id="confirmPhone" class="highlight"></span></p>
+                    </div>
+                    
+                    <div class="modal-actions mt-5">
+                        <button id="rescheduleBtn" type="button" class="btn-primary w-100" style="display:flex; justify-content:center;">Done</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Supabase JS Client for Database Integration -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <script>
+        // --- Supabase Config Setup --- //
+        // For a plain HTML setup, replace these strings with your actual keys from Supabase settings.
+        // If you migrate to a bundler like Vite, use import.meta.env.VITE_SUPABASE_URL instead.
+        const SUPABASE_URL = 'https://skzmheymjbcuutduxpkm.supabase.co';
+        const SUPABASE_ANON_KEY = 'sb_publishable_gFoMgBBo8VZgTL7OG5cXWA_-0Dnt0OO';
+        
+        let supaClient = null;
+        if (SUPABASE_URL !== 'YOUR_SUPABASE_URL_HERE') {
+            supaClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        }
+
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Navbar and Parallax scroll effect
+        const nav = document.querySelector('.navbar');
+        const parallaxContainers = document.querySelectorAll('.parallax-container');
+        
+        window.addEventListener('scroll', () => {
+            const scrollY = window.scrollY;
+            
+            // Navbar
+            if (scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+            
+            // Subtle Cinematic Parallax
+            parallaxContainers.forEach(container => {
+                const rect = container.getBoundingClientRect();
+                // Check if element is in viewport
+                if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+                    // Parallax: background moves slower than foreground
+                    const offset = rect.top * 0.35; 
+                    // Apply translate to the inner wrapper so we can still use CSS animations on the actual bg
+                    const bgWrapper = container.querySelector('.parallax-bg');
+                    if (bgWrapper) {
+                        bgWrapper.style.transform = `translateY(${offset}px)`;
+                    }
+                }
+            });
+        });
+        
+        // Simple smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Booking Modal Logic
+        const modal = document.getElementById('bookingModal');
+        const openBtns = document.querySelectorAll('.navbar .btn-primary, .open-modal-btn');
+        const closeBtn = document.getElementById('closeModalBtn');
+        const bookingForm = document.getElementById('bookingForm');
+        const bookingStep = document.getElementById('bookingStep');
+        const confirmationStep = document.getElementById('confirmationStep');
+        const timeSlotsGrid = document.getElementById('timeSlotsGrid');
+
+        // Populate time slots
+        const startTime = 10 * 60; // 10:00 AM in minutes
+        const endTime = 17 * 60 + 30; // 5:00 PM in minutes
+        
+        for (let time = startTime; time < endTime; time += 30) {
+            const hours = Math.floor(time / 60);
+            const mins = time % 60;
+            const ampm = hours >= 12 ? 'PM' : 'AM';
+            const displayHour = hours > 12 ? hours - 12 : (hours === 0 ? 12 : hours);
+            const displayTime = `${displayHour}:${mins.toString().padStart(2, '0')} ${ampm}`;
+            
+            const slotDiv = document.createElement('div');
+            slotDiv.className = 'time-slot-label';
+            slotDiv.innerHTML = `
+                <input type="radio" name="timeSlot" value="${displayTime}" required id="slot_${time}">
+                <label for="slot_${time}">${displayTime}</label>
+            `;
+            timeSlotsGrid.appendChild(slotDiv);
+        }
+
+        // Set min date to today
+        const dateInput = document.getElementById('bookingDate');
+        const today = new Date().toISOString().split('T')[0];
+        dateInput.min = today;
+        dateInput.value = today;
+
+        openBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                modal.classList.add('active');
+                document.body.style.overflow = 'hidden'; // prevent scrolling
+            });
+        });
+
+        const closeModal = () => {
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        };
+
+        closeBtn.addEventListener('click', closeModal);
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) closeModal();
+        });
+
+        bookingForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Get values
+            const date = document.getElementById('bookingDate').value;
+            const time = document.querySelector('input[name="timeSlot"]:checked').value;
+            const name = document.getElementById('fullName').value;
+            const phone = document.getElementById('phoneNumber').value;
+            
+            // Format date nicely
+            const dateObj = new Date(date);
+            const dateStr = dateObj.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
+            
+            // Update confirmation details
+            document.getElementById('confirmDate').textContent = dateStr;
+            document.getElementById('confirmTime').textContent = time;
+            document.getElementById('confirmName').textContent = name;
+            
+            // Update Phone with masking or formatting if desired, or just raw input
+            // Update Phone with masking or formatting if desired, or just raw input
+            document.getElementById('confirmPhone').textContent = phone;
+            
+            // Database Insertion via Supabase!
+            if (supaClient) {
+                const experience = document.getElementById('ridingExperience').value;
+                const email = document.getElementById('emailAddress').value;
+                
+                supaClient.from('test_rides').insert([
+                    { 
+                        full_name: name,
+                        phone_number: phone,
+                        email_address: email,
+                        booking_date: date,
+                        time_slot: time,
+                        riding_experience: experience,
+                        created_at: new Date().toISOString()
+                    }
+                ]).then(({ data, error }) => {
+                    if (error) {
+                        console.error('Error saving your booking to Supabase!', error);
+                        alert('Warning: Could not save to database. Check console.');
+                    } else {
+                        console.log('Successfully saved to Supabase!');
+                    }
+                });
+            } else {
+                console.info('Supabase connects mock-run. Replace credentials to save to DB.');
+            }
+
+            // Switch steps
+            bookingStep.classList.remove('active');
+            confirmationStep.classList.add('active');
+            
+            // Re-bind icons for dynamic content
+            lucide.createIcons();
+            
+            // Simulation of SMS confirmation sent internally
+            console.log(`SMS dispatched to ${phone}`);
+        });
+
+        document.getElementById('rescheduleBtn').addEventListener('click', () => {
+            bookingForm.reset();
+            dateInput.value = today;
+            confirmationStep.classList.remove('active');
+            bookingStep.classList.add('active');
+            closeModal();
+            // Just finished, close out form
+        });
+    </script>
+</body>
+</html>
