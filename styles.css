@@ -506,9 +506,23 @@ body {
         flex-direction: column;
     }
     
-    .btn-primary, .btn-secondary {
+    .hero-actions .btn-primary,
+    .hero-actions .btn-secondary {
         width: 100%;
         justify-content: center;
+    }
+
+    .navbar {
+        padding: 0.8rem 5%;
+    }
+
+    .navbar .logo span {
+        font-size: 1.3rem;
+    }
+
+    .navbar .btn-primary {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.8rem;
     }
     
     .section-title {
